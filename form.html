@@ -8,10 +8,11 @@
     nav {
       display: flex;
       justify-content: space-between;
+      align-items: center;
     }
     nav a {
       text-decoration: none;
-      color: black;
+      color: tomato;
     }
     .login-form-container {
       height: 90vh;
@@ -19,6 +20,10 @@
       justify-content: center;
       align-items: center;
       /* border: 2px solid blue; */
+    }
+    .login-form-container h2 {
+      color: tomato;
+      text-align: center;
     }
     .login-form {
       display: flex;
@@ -45,7 +50,7 @@
 
   <section class="login-form-container">
     <form class="login-form" action="">
-      <h3>Please Login</h3>
+      <h2>Please Login</h2>
       <input type="email" name="email" id="email" placeholder="Your Email" required>
       <input type="password" name="password" id="password" placeholder="Your password" required>
       <input type="submit" value="Login">
